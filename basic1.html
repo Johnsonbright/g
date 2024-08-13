@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Basics</title>
+    <link rel="icon" href="images/facebook logo.png">
+    <style>
+      body {
+        background-image:
+        url('download.jpg'); 
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-attachment: fixed;
+
+      }
+      
+      .link{
+        background-color: brown;
+        
+      }
+      table{
+      font-family:arial, sans-serifs;
+      border-collapse: collapse;
+      width:100%;
+      color: white;
+      }
+      td,th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+        border-style: outset;
+
+      }
+      tr:nth-child(even) {
+       background-color: #dddddd;
+      
+      }
+    </style>
+ </head>
+<body>
+    <h1 title='im a header'> 
+      <del>
+        The title
+      </del>
+       Attribute
+      </h1>
+<p title='God "is" great'> 
+  Hello
+   <hr>
+    world
+  </hr>
+</p>
+<p title="about schools"> 
+  wschools cannot quote ommission.
+</p>
+<p>
+  if you were 
+  <br> <strong><sup>strong</sup> enough</strong>
+</p>
+<h1 style="font-family:courier;">
+  <small>Im of the</small> <ins><sub>Lord</ins></sub>
+  </h1>
+<h2>im great</h2>
+<h3 style="text-align: center;"><i><mark>im confident</i></mark>
+</h3>
+<h4 style="font-size:150%;"><em>im glorious</em></h4>
+<h5>
+  im good
+</h5>
+<h6>im a 
+</h6>
+<pre>
+    Hello world
+    My name is ifechukwu
+    i am an igbo boy
+    i am an African
+</pre>
+<p>
+  Here is a quote from WWF's website:
+</p>
+
+<script>
+  document.getElementById('demo').innerHTML= "Hello Javascript!";
+</script>
+<blockquote
+ cite="https://www.worldwildlife.org/about#:~:text=For%20Nature%2C%20For%20People%2C%20Forever&text=Today%2C%20human%20activities%20put%20more,power%20to%20change%20this%20trajectory."> For more than 60 years, WWF has worked to help people and nature thrive.
+
+  As the world’s leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.</blockquote>
+<p>
+ <q> Our efforts ensure that the value of nature is reflected in decision-making from a local to a global scale.</q>
+</p>  
+<p>
+  The <abbr title="World Health Organisation">WHO</abbr> was founded in 1948.
+</p>
+<p>
+  The HTML address element defines contact information (author/owner) of a document or article.
+</p>
+<address>
+  Written by John Doe.<br>
+  Visit us at: <br>
+  Example.com <br>
+  Box 564, Disneyland <br>
+  USA 
+  </address>
+  <img src="smiley.gif" >
+<a href="https://www.google.com.ng/"><img src="thumbnails/Thumbnail.3 webp.jpg" width="220" height="277" alt="Elephant"></a>
+
+<p><cite>The elephant</cite> by Ifechukwu. painted 2024.</p>
+<bdo dir="rtl"> God bless Nigeria</bdo>
+<!--comment are not displayed-->
+<p>
+  This is a comment
+</p>
+<!--comment-->
+<!--<p>This is a paragraph</p>-->
+<p style="border: 3px solid tomato">
+God is great
+</p>
+<h3 style="background-color:hsla(9, 100%,64%,0.6);">Great is thy faithfulness</h3>
+<p class="link"><a href="mailto:johnsonbrigh@gmail.com">send email</a>
+<div>
+  <p>
+ <a href="https://www.google.com.ng/" title="Google">click me</a> 
+HTML tutorial</button></p><div>
+<script>
+  function myFunction() { alert("you clicked an elephant");
+
+  }
+</script>
+<button type="button" onclick="myFunction()">Click me!</button>
+<p id="demo">This is a demonstration</p>
+<script>
+  function myFunction(){
+    document.getElementById("demo").innerHTML="Hello Javascript"
+    document.getElementById("demo").style.color="red";
+  }
+</script>
+<h2>HTML TABLE</h2>
+<table>
+  <tr> 
+    <th style="width:70%">Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+   <td> Alfred Futterkiste</td>
+   <td>Maria Anders</td>
+   <td>Germany</td>
+   </tr>
+   <tr>
+    <td>Centro comercial</td>
+    <td>Fransciso Chang</td>
+    <td>Mexico</td>
+   </tr>
+   <tr>
+    <td>Ernest Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+   </tr>
+   <tr>
+    <td><img src="download.jpg"></td>
+   </tr>
+</table>
+
+<table style="width:100%">
+<caption>List of the names</caption>
+  <tr>
+    <th colspan="3">NAME</th>
+    <th>Age</th>
+  </tr>
+  <td>Jill</td>
+  <td>Smith</td>
+  <td>Caleb</td>
+  <td>30</td>
+
+  </td>
+</table>
+</body>
+</html>

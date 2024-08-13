@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        ul{
+        list-style-type: none;
+        Margin: 0;
+        Padding: 0;
+        Overflow:Hidden;
+        Background-color: black
+      }
+      li {
+        float:left;
+      }
+      li a:hover{
+        background-color: #111111;
+    
+      }
+      li a{
+        display: block;
+        color:white;
+        text-align:center;
+        padding:30px;
+        text-decoration:none
+      }
+  
+    div.myContainer{
+      width:100%;
+      overflow:auto;
+        }
+    div.myContainer div{
+      width:33%;
+      float:left;
+    }
+    table{
+      margin-top:50px;
+    }
+    table,th,td {
+      border: 1px solid black;
+      border-collapse:collapse;
+    }
+    tr:nth-child(even) {
+      background-color:rgba(150,212,212, 0.4);
+    }
+    th:nth-child(even), td:nth-child(even){
+      background-color: rgba(150, 212, 212, 0.4);
+
+    }
+    
+
+    </style>
+    <body id="boy">
+      <button onclick="myFunction()">Hide element </button>
+<script>
+  function myFunction() {
+    var x=document.getElementByclassName("city");
+    for (var i=0; i<x.length; i++) x[i].style.display="none";
+  }
+</script>
+
+      <ul>
+        <li><a href="HOME">HOME</a></li> 
+        <li><a href=CONTACT>CONTACT</a></li>
+        <li><a href=MENU>MENU</a></li>
+      </ul>
+<div class="myContainer">
+  <div style="background-color: aqua;">
+  <h2>London</h2>
+<p>London is the coolest country in the world</p></div>
+<div style="background-color: blanchedalmond;">
+<h2>Nigeria</h2>
+<p>Nigeria ia the giant of  Africa and a fast growing economy</p></div>
+<div style="background-color: beige;"><h2>Brazil</h2>
+<p>Brazi is suited in south america. they are recognised for their love for football </p></div>
+</div>
+ </table> 
+<table style="width:100%;">
+  <colgroup>
+    <col span="2" styles="visibility:collapse">
+    <col span="3" style="background-color:#eee4d6">
+  </colgroup>
+  <tr>
+    <th>Country in Africa</th>
+    <th>Leaders</th>
+    <th>Companies</th>
+    <th>Population</th>
+  </tr>
+  <tr>
+    <td> Nigeria</td>
+    <td>Tinubu</td>
+    <td>Dangote Group of company</td>
+    <td>120 million</td>
+  </tr>
+  <tr>
+    <td>Ghana</td>
+    <td>Nkrumah</td>
+    <td>Gold coast Enterprises</td>
+    <td>60million</td>
+  </tr>
+  <tr>
+    <td id="coun">South Africa</td>
+    <td>Mandela</td>
+    <td>aMtn corporation</td>
+    <td>100 million</td>
+    </tr>
+    <tr>
+      <td>Egypt</td>
+      <td>Pharaoh</td>
+      <td>Pyramid Org.</td>
+      <td>90 million</td>
+    </tr>
+    </table>
+<h2>HTML Iframes</h2>
+<p id="demo">ofada</p>
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+<iframe src="basic1.html" style="border:none;"   height="200" width="300" title="basic1>"></iframe>
+<h1> My First Javascript</h1>
+<button type="button" onclick="document.getElementById().innerHTML= '' ">Click on me to is display Date and Time</button>
+</body>
+  </head>
+</html>
